@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Pizza Parlor</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="title">
+            <h2>Pizza Parlor</h2>
+        </div>
+
+        <div class="nav">
+
+            <svg id="hamburger-menu" width="30" height="30">
+                <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+
+                <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+
+                <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+
+            </svg>
+
+            <ol id="nav-expanded">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="locations.html">Our Locations</a></li>
+                <li><a href="shop.html">Our Shop</a></li>
+                    <li><a href="gallery.html">Our Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ol>
+        </div>
+
+        <div class="hero"></div>
+
+        <div class="subheading">
+            <h3>Contact Us</h3>
+        </div>
+
+        <div class="subdesciption">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor volutpat tortor, eu venenatis nisl ornare in.
+                 Mauris convallis libero non volutpat auctor. Donec aliquam tortor eu sodales sagittis. 
+                 Nullam vel nulla libero. Curabitur vel eleifend odio. 
+                 Praesent tempor, ligula ut facilisis molestie, dolor arcu varius nunc, in bibendum arcu turpis at diam. 
+                 Pellentesque dignissim varius finibus. Nulla bibendum lorem et quam sagittis, id pretium tellus pretium. 
+                Curabitur nisl ante, sollicitudin sit amet fermentum a, tempor eget nunc. 
+            </p>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="contact-box">
+            <h4>Contact Us</h4>
+            <div class="contact-inner">
+                <p> Use the form below</p>
+            </div>
+            <button>Submit</button>
+        </div>
+
+        
+
+    </div>
+
+    <div class="footer">
+        <h1>Contact Us</h1>
+        <div class="footer-nav">
+            <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="locations.html">Our Locations</a></li>
+                    <li><a href="shop.html">Our Shop</a></li>
+                    <li><a href="gallery.html">Our Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+            </ol>
+        </div>
+
+        <script>
+            function Showmenu() {
+                let et = document.querySelector('#nav-expanded');
+                et.style.display = 'list-item';
+            }
+    
+            let al = document.querySelector('#hamburger-menu');
+                al.addEventListener('click', Showmenu);
+    
+             function Hidemenu() {
+                let el = document.querySelector('#nav-expanded');
+                
+            }
+    
+    
+    
+        </script>
+</body>
+</html>

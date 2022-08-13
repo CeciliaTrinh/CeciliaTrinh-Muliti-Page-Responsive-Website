@@ -1,0 +1,606 @@
+/************************************* HTML ******************************************************/
+
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/************************************* HTML ******************************************************/
+
+/************************************* Title ******************************************************/
+
+.title{
+    text-align: center;
+}
+
+/************************************* Title ******************************************************/
+
+/************************************* Responive Webpage ******************************************************/
+
+
+@media screen and (max-width:1720px) {
+    .hero{
+        margin: auto;
+        width: 50%;
+        height: 500px;
+        width: 800px;
+        background-image: url(../img/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg);
+        background-size: cover;
+    }
+
+    .nav ol {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .nav ol li {
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .nav ol li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .subheading{
+        text-align: center;
+    }
+    
+    .subdesciption{
+        text-align: center;
+    }
+    
+    .team-member-1{
+        height: 300px;
+        width: 200px;
+        padding-left: 250px;
+    }
+    
+    .team-member-2{
+        height: 300px;
+        width: 200px;
+        padding-left: 250px;
+    }
+    
+    .team-member-3{
+        height: 300px;
+        width: 200px;
+        padding-left: 250px;
+    }
+
+    .team-image-gallery {
+        margin: auto;
+        width: 50%;
+    }
+    
+    
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    .menu-item-1{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .menu-item-2{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .menu-item-3{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .menu-image-gallery {
+        margin: auto;
+        width: 50%;
+    }
+
+    .location-image-1{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .location-image-2{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .location-image-3{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .location-image-gallery {
+        margin: auto;
+        width: 50%;
+    }
+
+    .contact-box {
+        height: 500px;
+        width: 500px;
+        border: 2px;
+        border-style: solid;
+        color: black;
+        margin: auto;
+        width: 50%;
+    }
+    
+    .contact-box h4 {
+        text-align: center;
+    }
+    
+    .contact-inner{
+        height: 425px;
+        width: 350px;
+        border: 2px;
+        border-style: solid;
+        color: black;
+        margin: auto;
+        width: 50%;
+    }
+
+    .shop-image-gallery {
+        margin: auto;
+        width: 50%;
+    }
+    
+    .shop-item-1 {
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .shop-item-2 {
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .shop-item-3 {
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+
+    .gallery {
+        margin: auto;
+        width: 50%;
+    }
+
+
+    .footer {
+        padding: 0;
+        height: 100px;
+        width: 1500px;
+    }
+    
+    .footer h1 {
+        text-align: center;
+    }
+    
+    .footer-nav ol {
+        text-align: center;
+    }
+    
+    
+    .footer-nav ol li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    
+    
+    
+    
+     
+}
+
+
+/************************************* Responive Webpage ******************************************************/
+
+
+
+
+
+
+
+
+/************************************* Responive Moblie/Tablet ******************************************************/
+
+@media screen and (max-width:420px) {
+    .hero{
+        height: 500px;
+        width: 900px;
+        background-image: url(../img/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg);
+        background-size: cover;
+    }
+
+    .title {
+       padding-left: 400px;
+    }
+
+    .subheading{
+        padding-left: 400px;
+    }
+
+    .subdesciption{
+      margin: auto;
+      width: 300%;
+    }
+
+    .description-1{
+        margin: auto;
+      width: 400%; 
+    }
+
+    .description-2{
+        margin: auto;
+        width: 400%; 
+    }
+
+    .description-3{
+        margin: auto;
+      width: 400%; 
+    }
+
+    .nav ol {
+        display: none;
+    }
+    
+    .nav ol li {
+        padding: 5px;
+    }
+    
+    .nav ol li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .team-member-1{
+        height: 300px;
+        width: 200px;
+        padding-left: 250px;
+    }
+    
+    .team-member-2{
+        height: 300px;
+        width: 200px;
+        padding-left: 250px;
+    }
+    
+    .team-member-3{
+        height: 300px;
+        width: 200px;
+        padding-left: 250px;
+    }
+    
+    .team-image-gallery {
+        margin: auto;
+        width: 50%;
+    }
+
+    .footer h1 {
+        text-align: center;
+    }
+    
+    .footer-nav ol {
+        text-align: center;
+    }
+    
+    
+    .footer-nav ol li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+
+    #hamburger-menu {
+        display: block;
+    }
+
+    /********** Menu Page *****************/
+
+    .menu-item-1{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .menu-item-2{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .menu-item-3{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .menu-image-gallery {
+        margin: auto;
+        width: 50%;
+    }
+
+     /********** Menu Page *****************/
+
+      /********** Location Page *****************/
+
+    .location-image-1{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .location-image-2{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .location-image-3{
+        height: 300px;
+        width: 300px;
+        padding-left: 230px;
+    }
+    
+    .location-image-gallery {
+        margin: auto;
+        width: 50%;
+    }
+
+      /********** Location Page *****************/
+
+        /********** Contact Page *****************/
+
+    .contact-box {
+        height: 500px;
+        width: 500px;
+        border: 2px;
+        border-style: solid;
+        color: black;
+        margin: auto;
+        width: 50%;
+    }
+    
+    .contact-box h4 {
+        text-align: center;
+    }
+    
+    .contact-inner{
+        height: 425px;
+        width: 350px;
+        border: 2px;
+        border-style: solid;
+        color: black;
+        margin: auto;
+        width: 50%;
+    }
+
+    /******** Contact Page *****/
+
+
+
+
+    
+    /******** Footer *****/
+
+    .footer {
+        padding: 0;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .footer h1 {
+        text-align: center;
+    }
+    
+    .footer-nav ol {
+        text-align: center;
+    }
+    
+    
+    .footer-nav ol li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+        /******** Footer *****/
+    
+    
+}
+
+/************************************* Responive Moblie/Tablet ******************************************************/
+
+
+
+nav ol {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav ol li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+.subheading{
+    text-align: center;
+}
+
+.subdesciption{
+    text-align: center;
+}
+
+.team-member-1{
+    height: 300px;
+    width: 200px;
+    padding-left: 250px;
+}
+
+.team-member-2{
+    height: 300px;
+    width: 200px;
+    padding-left: 250px;
+}
+
+.team-member-3{
+    height: 300px;
+    width: 200px;
+    padding-left: 250px;
+}
+
+.team-image-gallery {
+    margin: auto;
+    width: 50%;
+}
+
+.footer {
+    padding: 0;
+    height: 100px;
+    width: 1500px;
+}
+
+.footer h1 {
+    text-align: center;
+}
+
+.footer-nav ol {
+    text-align: center;
+}
+
+
+.footer-nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.menu-item-1{
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.menu-item-2{
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.menu-item-3{
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.menu-image-gallery {
+    margin: auto;
+    width: 50%;
+}
+
+
+
+.location-image-1{
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.location-image-2{
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.location-image-3{
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.location-image-gallery {
+    margin: auto;
+    width: 50%;
+}
+
+.contact-box {
+    height: 500px;
+    width: 500px;
+    border: 2px;
+    border-style: solid;
+    color: black;
+    margin: auto;
+    width: 50%;
+}
+
+.contact-box h4 {
+    text-align: center;
+}
+
+.contact-inner{
+    height: 425px;
+    width: 350px;
+    border: 2px;
+    border-style: solid;
+    color: black;
+    margin: auto;
+    width: 50%;
+}
+
+.shop-image-gallery {
+    margin: auto;
+    width: 50%;
+}
+
+.shop-item-1 {
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.shop-item-2 {
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.shop-item-3 {
+    height: 300px;
+    width: 300px;
+    padding-left: 230px;
+}
+
+.gallery img{
+    height: 300px;
+    width: 300px;
+}
+.gallery {
+    margin: auto;
+    width: 50%;
+}
+
+
+
+
